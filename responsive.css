@@ -20,7 +20,7 @@
     #header {
       display: flex;
       flex-direction: row;
-      gap: 4%;
+      gap: 2%;
       position: static;
       width: 100%;
     }
