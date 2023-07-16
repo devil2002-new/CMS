@@ -1,0 +1,170 @@
+body,html{
+    margin: 0px;
+    height: 7vh;
+    scroll-behavior: smooth;
+}
+
+.backimage1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img1.jpg);
+    background-attachment:fixed;
+    background-repeat: round;
+}
+
+.bgcolor{
+    background-image: url(img1.jpg);
+}
+
+s
+
+#header{
+    display: flex;
+    flex-direction: row;
+    /* background-color: black; */
+    gap: 46%;
+    position: fixed;
+    width: 121%;
+}
+
+#logo{
+    font-weight: bolder;
+    font-size: larger;
+    color:white;
+    margin-top: 16px;
+    margin-left: 12px;
+    float: left;
+   
+}
+
+#navbar {
+    display: flex;
+    flex-direction: end;
+    /* background-color: black; */
+    /* justify-content: center; */
+    align-content:middle ;
+    
+}
+
+.bgcolor{
+    background-image: url(img1.jpg);
+    
+}
+
+ul{
+    margin-top: 16px;
+    font-weight: 600;
+    color: white;
+    float: inline-end;
+}
+
+/* Hyper link css */
+
+a :hover{
+    color: red;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color:  red
+}
+
+#title{
+    align-self:center;
+    margin-left: 28%;
+    text-align: center;
+    font-size: larger;
+    color: rgb(85, 82, 82);
+}
+
+h1{
+    color: rgb(85, 82, 82);
+}
+
+.txt{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btn{
+    border-radius: 10px 10px;
+    background-color: rgb(238, 226, 53);
+    border: none;
+    height: 5vh;
+    width: 20%;
+    scroll-behavior: auto;
+}
+
+
+
+
+/* Section page css */
+
+#about_us{
+
+    font-size: larger;
+    margin: 40px;
+    text-align: justify;
+}
+
+#about_us img{
+    float: right;
+    width: 379px;
+    height: 30vh;
+    margin-left: 85px;
+    margin-right: 13%;
+}
+
+.first_p{
+    display: flex;
+    flex-direction: row;
+    font-size:25px;
+}
+
+/*  */
+
+#about_us .img1{
+    /* float: left; */
+    width: 379px;
+    height: 30vh;
+    margin-left: 85px;
+    margin-right: 13%;
+}
+
+.first_p1{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size:25px;
+}
+
+/*  */
+
+#about_us .img2{
+    /* float: left; */
+    width: 379px;
+    height: 30vh;
+    margin-left: 85px;
+    margin-right: 13%;
+}
+
+.first_p2{
+    display: flex;
+    flex-direction: row;
+    font-size:25px;
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin-top: 1px;
+    font-size: 20px;
+}
+

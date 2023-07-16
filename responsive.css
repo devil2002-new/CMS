@@ -1,0 +1,328 @@
+/* CSS for mobile devices */
+@media only screen and (max-width: 600px) {
+    body,
+    html {
+      margin: 0px;
+      height: auto;
+      scroll-behavior: smooth;
+    }
+  
+    .backimage1 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      background-image: url(img1.jpg);
+      background-attachment: fixed;
+      background-repeat: round;
+    }
+  
+    #header {
+      display: flex;
+      flex-direction: row;
+      gap: 35%;
+      position: static;
+      width: 100%;
+    }
+  
+    #logo {
+      font-weight: bolder;
+      font-size: 18px;
+      color: white;
+      margin-top: 16px;
+      margin-left: 12px;
+      float: none;
+      text-align: center;
+    }
+  
+  
+    ul {
+      margin-top: 16px;
+      font-weight: 600;
+      color: white;
+      float: none;
+    }
+  
+    #title {
+      align-self: center;
+      margin-left: 0;
+      text-align: center;
+      font-size: 18px;
+      color: rgb(85, 82, 82);
+    }
+  
+    h1 {
+      color: rgb(85, 82, 82);
+    }
+  
+    .txt {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  
+    .btn {
+      border-radius: 10px;
+      background-color: rgb(238, 226, 53);
+      border: none;
+      height: auto;
+      width: 80%;
+      scroll-behavior: auto;
+      margin: 16px auto;
+      padding: 8px;
+      text-align: center;
+    }
+  
+    #about_us {
+      font-size: 16px;
+      margin: 20px;
+      text-align: justify;
+    }
+  
+    #about_us img {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin: 16px auto;
+    }
+  
+    .first_p {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+    }
+  
+    .first_p1 {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+    }
+  
+    .first_p2 {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+    }
+  
+    #about_us .img1 {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin: 16px auto;
+    }
+  
+    #about_us .img2 {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin: 16px auto;
+    }
+  
+    #footer {
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-weight: bolder;
+      margin-top: 16px;
+      font-size: 14px;
+    }
+    #mob-navbar {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 16px;
+  }
+  
+    #navbar{
+      display: none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+  
+    .dropbtn {
+        background-color: transparent;
+        color: black;
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
+        margin-left: 393%;
+    }
+  
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+  
+    .dropdown-content ul {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+  
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+  
+  }
+  
+  /* CSS for larger devices */
+  @media only screen and (min-width: 601px) {
+    body,
+    html {
+      margin: 0px;
+      height: 7vh;
+      scroll-behavior: smooth;
+    }
+  
+    .backimage1 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100vh;
+      background-image: url(img1.jpg);
+      background-attachment: fixed;
+      background-repeat: round;
+    }
+    
+    .bgcolor{
+      background-image: url(img1.jpg);
+    }
+
+    #header {
+      display: flex;
+      flex-direction: row;
+      gap: 46%;
+      position: fixed;
+      width: 121%;
+    }
+  
+    #logo {
+      font-weight: bolder;
+      font-size: larger;
+      color: white;
+      margin-top: 16px;
+      margin-left: 12px;
+      float: left;
+    }
+  
+    #navbar {
+      display: flex;
+      flex-direction: end;
+      align-content: middle;
+    }
+  
+    ul {
+      margin-top: 16px;
+      font-weight: 600;
+      color: white;
+      float: inline-end;
+      
+    }
+  
+    #title {
+      align-self: center;
+      margin-left: 28%;
+      text-align: center;
+      font-size: larger;
+      color: rgb(85, 82, 82);
+    }
+  
+    h1 {
+      color: rgb(85, 82, 82);
+    }
+  
+    .txt {
+      font-size: larger;
+      font-weight: bold;
+    }
+  
+    .btn {
+      border-radius: 10px;
+      background-color: rgb(238, 226, 53);
+      border: none;
+      height: 5vh;
+      width: 20%;
+      scroll-behavior: auto;
+    }
+  
+    #about_us {
+      font-size: larger;
+      margin: 40px;
+      text-align: justify;
+    }
+  
+    #about_us img {
+      float: right;
+      width: 379px;
+      height: 30vh;
+      margin-left: 85px;
+      margin-right: 13%;
+    }
+  
+    .first_p {
+      display: flex;
+      flex-direction: row;
+      font-size: 25px;
+    }
+  
+    #about_us .img1 {
+      width: 379px;
+      height: 30vh;
+      margin-left: 85px;
+      margin-right: 13%;
+    }
+  
+    .first_p1 {
+      display: flex;
+      flex-direction: row-reverse;
+      font-size: 25px;
+    }
+  
+    #about_us .img2 {
+      width: 379px;
+      height: 30vh;
+      margin-left: 85px;
+      margin-right: 13%;
+    }
+  
+    .first_p2 {
+      display: flex;
+      flex-direction: row;
+      font-size: 25px;
+    }
+  
+    #footer {
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-weight: bolder;
+      margin-top: 1px;
+      font-size: 20px;
+    }
+
+    #mob_navbar{
+      display: none;
+    }
+    a :hover{
+      color: red;
+  }
+  a:link{
+      color: white;
+  }
+  a:visited{
+      color: white;
+  }
+  a:active{
+      color:  red
+  }
+  }
+  
+
+  
